@@ -1,0 +1,17 @@
+let nomes = ["Pedro", "Paulo", "Maria", "Ana", "Jose", "Lucio", "Edson", "Carla", "Michael", "Marilia"];
+let idades = [18, 30, 22, 25, 65, 52, 48, 20, 15, 19];
+let coresFavoritas = ["azul", "verde", "amarelo", "preto", "rosa", "vermelho", "lilás", "amarelo", "roxo", "rosa" ];
+
+console.log("\nLista:");
+console.log ("Lista de nomes:", nomes);
+console.log ("Lista de idades:", idades);
+console.log ("Lista de cores favoristas:", coresFavoritas);
+
+
+idades[1] = 20;
+coresFavoritas[2] = "preto";
+
+console.log("\nLista modificada:");
+console.log ("Lista de nomes:", nomes);
+console.log ("Lista de idades:", idades);
+console.log ("Lista de cores favoristas:", coresFavoritas);
